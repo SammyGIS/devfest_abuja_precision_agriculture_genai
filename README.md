@@ -4,6 +4,12 @@ A satellite remote sensing and artificial intelligence workflow for precision fa
 
 **Case study:** a rice farm in Nigeria is used to demonstrate the workflow. The same approach applies to any crop or farm boundary; swap in your own `farm_boundary` and adjust the indices and prompts.
 
+**Slides:** [From Pixels to Intelligence.pptx](assets/From%20Pixels%20to%20Intelligence.pptx)
+
+## Workflow
+
+![Precision farming workflow](assets/workflow_flowchart.png)
+
 This practical session is organized into three hands-on notebooks:
 
 1. Data Extraction, Geemap and Spatial Storage:
@@ -16,7 +22,7 @@ This practical session is organized into three hands-on notebooks:
 
 3. Pixel-Level Spatial GeoAI Scouting Expert:
    notebooks/03_pixel_level_zarr_geoai_analysis.ipynb
-   Pure AI spatial scouting session. Connects Google Gemini directly to high-resolution sub-plot telemetry and anomaly clusters, pinpointing specific Plot IDs, physical sectors/corners, and exact GPS coordinates for field workers, and answering two actionable scouting questions cell-by-cell.
+   Pure AI spatial scouting session. Connects Google Gemini to 30 m pixel-level telemetry to find both trouble spots and the strongest, healthiest spots in every plot, with Plot IDs, sectors/corners and exact GPS coordinates. Adds farmer-provided ground truth (variety, fertilizer already applied, soil, budget), generates a fertilizer plan, and lets the AI ask the farmer for missing information instead of guessing, then refine its advice once the farmer answers.
 
 ---
 
