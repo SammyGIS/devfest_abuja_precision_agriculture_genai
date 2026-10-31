@@ -1,6 +1,8 @@
-# Precision Rice Farm Monitoring with Google Earth Engine and Google GeoAI
+# From Pixels to Intelligence: Precision Farming with Google Earth Engine and Google GeoAI
 
-A satellite remote sensing and artificial intelligence system for precision rice paddy monitoring in Nigeria. It integrates multi-spectral Sentinel-2 satellite data, Geemap interactive visualization, cloud-native spatial storage (GeoParquet and Zarr), and Google GeoAI (Gemini) for phenology tracking and autonomous agronomic advisory.
+A satellite remote sensing and artificial intelligence workflow for precision farming. It integrates multi-spectral Sentinel-2 satellite data, Geemap interactive visualization, cloud-native spatial storage (GeoParquet and Zarr), and Google GeoAI (Gemini) to monitor crop health, track phenology and generate field-level agronomic advice.
+
+**Case study:** a rice farm in Nigeria is used to demonstrate the workflow. The same approach applies to any crop or farm boundary; swap in your own `farm_boundary` and adjust the indices and prompts.
 
 This practical session is organized into three hands-on notebooks:
 
